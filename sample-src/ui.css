@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  outline: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  @apply flex flex-col items-center;
+}
+
+.app button {
+  @apply border text-center rounded text-sm mb-2.5 px-2 py-1 border-solid border-[black];
+}
+
+.app .colors {
+  @apply w-3/5 flex justify-between mx-0 my-[30px];
+}
+
+.app .colors .color {
+  @apply w-[50px] h-[50px] cursor-pointer border rounded-[50%] border-[none] border-solid border-[black];
+}
+
+.app .alert {
+  @apply text-xs text-[rgba(255,0,0,0.7)];
+}
