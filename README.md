@@ -1,40 +1,29 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+![assets/1.png](assets/1.png)
+# Fantazy Maps
 
-  https://www.figma.com/plugin-docs/plugin-quickstart/
+Fantazy Maps is a Figma plugin that allows users to quickly generate random maps with names for use in adventure book. The plugin utilizes RNG (random number generation) to create unique maps and names with a single click. This makes it easy for users to quickly prototype their adventure book layouts without having to spend hours creating custom maps from scratch.
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+## Key Features
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+Random Map Generation: The plugin generates random maps with a variety of terrain types such as forests, mountains, rivers, deserts, and more.
 
-  https://nodejs.org/en/download/
+Name Generation: The plugin generates unique and creative names for the maps.
 
-Next, install TypeScript using the command:
+Customization: The plugin allows users to customize certain aspects of the map such as the size, scale, and complexity.
 
-  npm install -g typescript
+Quick Prototyping: The plugin allows designers to quickly prototype their adventure book layouts with unique maps and names, saving them time and effort.
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+## How it Works
 
-  npm install --save-dev @figma/plugin-typings
+Install the Fantazy Maps plugin in Figma.
+Open a new or existing Figma file and select the Fantazy Maps from the plugins menu.
 
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
+Click on the "Generate" button and wait for the plugin to create a random map with unique names.
 
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+Customize the map as needed using the options provided.
 
-For more information, visit https://www.typescriptlang.org/
+Use the generated map and name in your adventure book layout.
 
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
+## Conclusion
 
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+Fantazy Maps plugin is a tool for users who want to quickly prototype their adventure book layouts. With its ability to generate unique maps and names using RNG, users can save time and effort.
